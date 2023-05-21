@@ -3,7 +3,7 @@
 ![Demo](./img/demo.png)
 
 Bitwarden TUI written in Go for Linux. GoBW is a interative wrapper around the Bitwarden CLI. 
-It uses the Bubblegum Framework as TUI. 
+It uses the Bubbletea Framework as TUI. 
 
 # Featues
 - Copy Username and Password
@@ -37,5 +37,5 @@ It will however save the Token provided by Bitwarden CLI after logging in or unl
 - SSO Login is not directly supported. Login using `bw login --sso` and start gobw afterwards. 
 - Entries without a Name are not selectable. Make sure to always set a Name for a entry
  
-# Bubblegum Framework
-This Project uses the [Bubblegum Framework](https://github.com/charmbracelet/bubbletea) by Charmbracelet
+# Bubbletea Framework
+This Project uses the [Bubbletea Framework](https://github.com/charmbracelet/bubbletea) by Charmbracelet
