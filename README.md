@@ -3,8 +3,8 @@ Bitwarden TUI written in Go for Linux. GoBW is a wrapper around the Bitwarden CL
 It uses the Bubblegum Framework as TUI. 
 
 # Featues
-[x] Copy Username and Password
-[x] Basic Search Features using the Name of the entry. 
+- Copy Username and Password
+- Basic Search Features using the Name of the entry. 
 
 # Usage 
 1. Download the Release File.  
@@ -13,10 +13,15 @@ It uses the Bubblegum Framework as TUI.
 
 # Keys
 <kbd>k</kbd>/<kbd>j</kbd> and <kbd>up</kbd>/<kbd>down</kbd>: Move selection up or down
+
 <kbd>h</kbd>/<kbd>l</kbd> and <kbd>left</kbd>/<kbd>right</kbd>: Move to next/previous page
+
 <kbd>/</kbd>: Search through list
+
 <kbd>q</kbd>: Quit Program/Clear clipboard and return to list
+
 <kbd>Alt</kbd><kbd>Enter</kbd>: Copy Username
+
 <kbd>Enter</kbd>: Copy Password
 
 # Security 
